@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Headings */
+h1 {
+  color: red;
+}
+
+/* General table layout */
+table {
+  width: 60%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+/* Label cells */
+td:first-child {
+  width: 40%;
+  text-align: right;
+  vertical-align: top;
+  padding: 4px;
+}
+
+/* Inputs and select elements */
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  width: 100%;
+  padding: 4px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+/* ✅ Blue outline and border when a field is focused */
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid blue;
+  box-shadow: 0 0 4px blue;
+}
+select option{
+    background-color: blue;
+    color:white;
+}
+
+/* Dropdown width fix */
+select {
+    
+  width: 93%;
+}
+
+/* Paragraph small text */
+p:last-of-type {
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+/* Buttons */
+button {
+  margin-right: 10px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Green continue button */
+button[type="submit"] {
+  background-color: green;
+  color: white;
+}
+
+/* Gray reset button */
+button[type="reset"] {
+  background-color: lightgray;
+  color: black;
+}
