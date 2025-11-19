@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Sadia" />
+  <meta name="description" content="Personal portfolio webpage for internship preparation." />
+  <meta name="keywords" content="portfolio, student, web development, internship" />
+  <title>Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: rgb(45, 73, 120);
+      color: white;
+      padding: 24px;
+      text-align: center;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    section,
+    footer {
+      padding: 20px;
+    }
+
+    #bio,
+    #education {
+      text-align: center;
+    }
+
+    #contact>h2 {
+      text-align: center;
+    }
+
+    #bio>h2,
+    #education>h2,
+    #contact>h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    table,
+    th,
+    td {
+      border: 1px solid #000;
+    }
+
+    th,
+    td {
+      padding: 10px;
+      text-align: left;
+    }
+
+    form {
+      width: 60%;
+      margin: 0 auto;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    form input,
+    form textarea,
+    form button {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      box-sizing: border-box;
+    }
+
+    button {
+      border: none;
+      background: rgb(45, 73, 120);
+      border-radius: 8px;
+      color: white;
+      cursor: pointer;
+    }
+
+    footer {
+      background: #1d3557;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Sadia</h1>
+    <nav>
+      <a href="#bio">Bio</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="bio">
+      <h2>About Me</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed suscipit labore nobis doloremque maxime eos!
+        Laboriosam quia quasi aliquam totam. Odio minima, velit numquam mollitia molestias soluta nesciunt accusantium
+        enim magnam architecto sunt iste. Suscipit architecto nam quisquam! Quo commodi esse natus, consequatur
+        quibusdam minima officiis debitis! Beatae autem vel ad modi adipisci ducimus nulla maiores, aspernatur ipsam
+        illo consectetur est nisi rem quibusdam id nobis voluptas hic facilis molestiae dolore quasi nam cumque
+        sapiente? Veritatis aliquid praesentium obcaecati nemo corporis sit sed ipsa repellat doloribus culpa nulla
+        molestias, minima, laudantium delectus consequatur soluta sint eum quaerat esse commodi. Laborum inventore eos
+        vitae officiis tempora, sint rem amet ipsa saepe nam accusantium quo, commodi officia. Obcaecati exercitationem
+        dolores suscipit, numquam enim esse ullam quidem assumenda illo animi et necessitatibus accusantium placeat
+        fugit reiciendis. Amet dolorem cumque ullam dolores ipsa aut dolorum aliquam sint! Dicta aspernatur maiores quos
+        quisquam harum cum laborum voluptatum, fuga commodi itaque nobis repellendus mollitia totam architecto nostrum
+        ullam, iusto placeat voluptas facilis soluta at. Voluptatem repudiandae sunt alias eius necessitatibus nemo
+        incidunt, pariatur facere, veritatis ea itaque numquam fugiat similique impedit magni deleniti animi facilis.
+        Tempora culpa atque rem id commodi tenetur. Repudiandae tempore quia atque.
+      </p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <table>
+        <tr>
+          <th>Degree</th>
+          <th>Institution</th>
+          <th>Year</th>
+          <th>Result</th>
+        </tr>
+        <tr>
+          <td>BSc in Computer Science</td>
+          <td>AIUB</td>
+          <td>2022-2026</td>
+          <td>Ongoing</td>
+        </tr>
+        <tr>
+          <td>HSC</td>
+          <td></td>
+          <td>2021</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>SSC</td>
+          <td></td>
+          <td>2019</td>
+          <td></td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="5" required></textarea><br /><br />
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Sadia Name | AIUB</p>
+  </footer>
+</body>
+
+</html>

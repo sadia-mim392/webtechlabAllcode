@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background: #2d4a78;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+header h1 {
+    font-size: 2em;
+}
+header p {
+    font-size: 1em;
+    opacity: 0.9;
+}
+
+section {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: white;
+}
+
+#about {
+    background: #ffe4c4;
+}
+#education {
+    background: #d9ffcf;
+}
+#hobbies {
+    background: #dcd3ff;
+}
+hr {
+    height: 5px;
+    background: #999;
+    width: 70%;
+    margin: 30px auto;
+    border: none;
+    border-radius: 5px;
+}
+footer {
+    background: #2d4a78;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
